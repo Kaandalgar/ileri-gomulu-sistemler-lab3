@@ -1,0 +1,31 @@
+LAB 3 - BOLUM 1: UART GERI DONGU
+TX: GPIO17, RX: GPIO18
+Ayar: 115200 baud, 8N1
+
+Test 1
+Gonderilen: Merhaba ESP32 - test 1
+Alinan: Merhaba ESP32 - test 1
+Sonuc: BASARILI
+
+Test 2
+Gonderilen: Merhaba ESP32 - test 2
+Alinan: Merhaba ESP32 - test 2
+Sonuc: BASARILI
+
+Test 3
+Gonderilen: Merhaba ESP32 - test 3
+Alinan: Merhaba ESP32 - test 3
+Sonuc: BASARILI
+
+Test 4
+Gonderilen: Merhaba ESP32 - test 4
+Alinan: Merhaba ESP32 - test 4
+Sonuc: BASARILI
+
+Test 5
+Gonderilen: Merhaba ESP32 - test 5
+Alinan: Merhaba ESP32 - test 5
+Sonuc: BASARILI
+
+Basarili test: 5/5
+UART geri dongu testi tamamlandi.

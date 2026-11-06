@@ -1,0 +1,9 @@
+﻿**/build/
+**/.vscode/
+**/.devcontainer/
+**/managed_components/
+**/.clangd
+**/.clangd/
+**/sdkconfig.old
+**/__pycache__/
+*.log

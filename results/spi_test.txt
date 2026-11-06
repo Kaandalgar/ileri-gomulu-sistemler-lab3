@@ -1,0 +1,66 @@
+LAB 3 - BOLUM 3: SPI GERI DONGU
+Baglanti: GPIO23 MOSI -> GPIO19 MISO
+SCLK: GPIO18, CS: GPIO5
+Her aktarim: 4 bayt, 32 bit
+
+--- SPI MOD 0 ---
+CPOL: 0, CPHA: 0
+Saat ayari: 1 MHz
+
+Test 1
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 2
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 3
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 4
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 5
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+Mod 0 eslesen test: 5/5
+
+--- SPI MOD 3 ---
+CPOL: 1, CPHA: 1
+Saat ayari: 1 MHz
+
+Test 1
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 2
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 3
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 4
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+
+Test 5
+Gonderilen: A5 3C 0F F0
+Alinan: A5 3C 0F F0
+Sonuc: ESLESTI
+Mod 3 eslesen test: 5/5
+
+SPI geri dongu testi tamamlandi.

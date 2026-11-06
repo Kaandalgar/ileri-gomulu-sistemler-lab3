@@ -1,0 +1,73 @@
+LAB 3 - UART BAUD KARSILASTIRMASI
+Baglanti: GPIO17 -> GPIO18
+
+--- AYNI BAUD ---
+Gonderici: 115200 baud
+Alici: 115200 baud
+
+Test 1
+Gonderilen: UART baud testi 1
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 31
+Sonuc: ESLESTI
+
+Test 2
+Gonderilen: UART baud testi 2
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 32
+Sonuc: ESLESTI
+
+Test 3
+Gonderilen: UART baud testi 3
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 33
+Sonuc: ESLESTI
+Eslesen test: 3/3
+
+--- YANLIS BAUD ---
+Gonderici: 115200 baud
+Alici: 9600 baud
+
+Test 1
+Gonderilen: UART baud testi 1
+Alinan bayt sayisi: 2
+Alinan HEX: 10 FD
+Sonuc: ESLESMEDI
+
+Test 2
+Gonderilen: UART baud testi 2
+Alinan bayt sayisi: 2
+Alinan HEX: 10 FD
+Sonuc: ESLESMEDI
+
+Test 3
+Gonderilen: UART baud testi 3
+Alinan bayt sayisi: 2
+Alinan HEX: 10 FD
+Sonuc: ESLESMEDI
+Eslesen test: 0/3
+
+--- AYNI BAUDA DONUS ---
+Gonderici: 115200 baud
+Alici: 115200 baud
+
+Test 1
+Gonderilen: UART baud testi 1
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 31
+Sonuc: ESLESTI
+
+Test 2
+Gonderilen: UART baud testi 2
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 32
+Sonuc: ESLESTI
+
+Test 3
+Gonderilen: UART baud testi 3
+Alinan bayt sayisi: 17
+Alinan HEX: 55 41 52 54 20 62 61 75 64 20 74 65 73 74 69 20 33
+Sonuc: ESLESTI
+Eslesen test: 3/3
+
+Baud karsilastirmasi tamamlandi.
